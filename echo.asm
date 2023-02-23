@@ -25,5 +25,5 @@ main:   li $v0 ,9               #allocating 100 bytes space
         lw $a0,string_out       #string that is saved in the heap
         syscall
 
-        li $v0 ,10              # exiting the code
+        li $v0 ,10              # exiting
         syscall
